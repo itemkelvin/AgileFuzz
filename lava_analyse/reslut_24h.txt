@@ -1,0 +1,38 @@
+============== lava bug statistics! =========================
+uniq(bug_ids,none_ids):
+	afl	24	0
+	MOPT	28	1
+	afld	29	2
+	fast	28	0
+	Eco	27	1
+	AgileFuzz	29	0
+base64(bug_ids,none_ids):
+	afl	41	0
+	MOPT	48	0
+	afld	48	0
+	fast	42	0
+	Eco	47	0
+	AgileFuzz	47	0
+md5sum(bug_ids,none_ids):
+	afl	22	15
+	MOPT	59	25
+	afld	54	22
+	fast	40	46
+	Eco	43	27
+	AgileFuzz	57	7
+who(bug_ids,none_ids):
+	afl	217	0
+	MOPT	1135	0
+	afld	830	0
+	fast	65	0
+	Eco	105	39
+	AgileFuzz	1783	0
+
+
+total crash num:
+	afl:304,15
+	MOPT:1270,26
+	afld:961,24
+	fast:175,46
+	Eco:222,67
+	AgileFuzz:1916,7

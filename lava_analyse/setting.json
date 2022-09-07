@@ -1,0 +1,54 @@
+{
+    "uniq":
+    {
+        "command":"/home/software/llvm/lava_corpus/LAVA-M/uniq/coreutils-8.24-lava-safe/src/uniq","validated_bugs_path":"/home/software/lava_corpus/LAVA-M/uniq/validated_bugs",
+        "results":
+        [
+            {"fuzz_name":"AgileFuzz","crashes_path":"/home/data/lava_data/uniq/out_agile/crashes/"},
+            {"fuzz_name":"MOPT","crashes_path":"/home/data/lava_data/uniq/out_mopt/crashes/"},
+            {"fuzz_name":"Eco","crashes_path":"/home/data/lava_data/uniq/out_eco/crashes/"},
+            {"fuzz_name":"fast","crashes_path":"/home/data/lava_data/uniq/out_fast/crashes/"},
+            {"fuzz_name":"afl","crashes_path":"/home/data/lava_data/uniq/out_afl/crashes/"},
+            {"fuzz_name":"afld","crashes_path":"/home/data/lava_data/uniq/out_afld/crashes/"}
+        ]
+    },
+    "md5sum":
+    {
+        "command":"/home/software/llvm/lava_corpus/LAVA-M/md5sum/coreutils-8.24-lava-safe/src/md5sum -c","validated_bugs_path":"/home/software/lava_corpus/LAVA-M/md5sum/validated_bugs",
+        "results":
+        [
+            {"fuzz_name":"AgileFuzz","crashes_path":"/home/data/lava_data/md5sum/out_agile/crashes/"},
+            {"fuzz_name":"MOPT","crashes_path":"/home/data/lava_data/md5sum/out_mopt/crashes/"},
+            {"fuzz_name":"Eco","crashes_path":"/home/data/lava_data/md5sum/out_eco/crashes/"},
+            {"fuzz_name":"fast","crashes_path":"/home/data/lava_data/md5sum/out_fast/crashes/"},
+            {"fuzz_name":"afl","crashes_path":"/home/data/lava_data/md5sum/out_afl/crashes/"},
+            {"fuzz_name":"afld","crashes_path":"/home/data/lava_data/md5sum/out_afld/crashes/"}
+        ]
+    },
+    "base64":
+    {
+        "command":"/home/software/llvm/lava_corpus/LAVA-M/base64/coreutils-8.24-lava-safe/src/base64 -d","validated_bugs_path":"/home/software/lava_corpus/LAVA-M/base64/validated_bugs",
+        "results":
+        [
+            {"fuzz_name":"AgileFuzz","crashes_path":"/home/data/lava_data/base64/out_agile/crashes/"},
+            {"fuzz_name":"MOPT","crashes_path":"/home/data/lava_data/base64/out_mopt/crashes/"},
+            {"fuzz_name":"Eco","crashes_path":"/home/data/lava_data/base64/out_eco/crashes/"},
+            {"fuzz_name":"fast","crashes_path":"/home/data/lava_data/base64/out_fast/crashes/"},
+            {"fuzz_name":"afl","crashes_path":"/home/data/lava_data/base64/out_afl/crashes/"},
+            {"fuzz_name":"afld","crashes_path":"/home/data/lava_data/base64/out_afld/crashes/"}
+        ]
+    },
+    "who":
+    {
+        "command":"/home/software/llvm/lava_corpus/LAVA-M/who/coreutils-8.24-lava-safe/src/who ","validated_bugs_path":"/home/software/lava_corpus/LAVA-M/who/validated_bugs",
+        "results":
+        [
+            {"fuzz_name":"AgileFuzz","crashes_path":"/home/data/lava_data/who/out_agile/crashes/"},
+            {"fuzz_name":"MOPT","crashes_path":"/home/data/lava_data/who/out_mopt/crashes/"},
+            {"fuzz_name":"Eco","crashes_path":"/home/data/lava_data/who/out_eco/crashes/"},
+            {"fuzz_name":"fast","crashes_path":"/home/data/lava_data/who/out_fast/crashes/"},
+            {"fuzz_name":"afl","crashes_path":"/home/data/lava_data/who/out_afl/crashes/"},
+            {"fuzz_name":"afld","crashes_path":"/home/data/lava_data/who/out_afld/crashes/"}
+        ]
+    }
+}

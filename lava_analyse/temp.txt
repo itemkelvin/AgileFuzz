@@ -1,0 +1,3 @@
+Successfully triggered bug 281, crashing now!
+Successfully triggered bug 281, crashing now!
+Successfully triggered bug 281, crashing now!

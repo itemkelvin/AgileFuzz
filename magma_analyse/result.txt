@@ -1,0 +1,7 @@
+afl:10	48
+mopt:29	70
+funafl:25	64
+ecofuzz:25	67
+aflfast:17	64
+fairfuzz:14	62
+agileafl:30	69
