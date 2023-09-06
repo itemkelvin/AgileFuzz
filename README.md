@@ -24,3 +24,5 @@
     lava_analyse.py：该文件可以分析lava测试集的结果
     reslut_24h.txt: 该文件主要
 
+# 注意
+Agilefuzz目前只支持ubuntu16版本，clang 和llvm的版本都为3.8
